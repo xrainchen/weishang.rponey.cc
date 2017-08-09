@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weishang.rponey.cc.Dal", "w
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weishang.rponey.cc.Bll", "weishang.rponey.cc.Bll\weishang.rponey.cc.Bll.csproj", "{C96CA6FC-24BF-42A7-BB7C-50C800BFC909}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weishang.rponey.cc.Service", "weishang.rponey.cc.Service\weishang.rponey.cc.Service.csproj", "{2833FEF4-D0F5-45DE-9FCC-54A08F3D8134}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{C96CA6FC-24BF-42A7-BB7C-50C800BFC909}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C96CA6FC-24BF-42A7-BB7C-50C800BFC909}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C96CA6FC-24BF-42A7-BB7C-50C800BFC909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2833FEF4-D0F5-45DE-9FCC-54A08F3D8134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2833FEF4-D0F5-45DE-9FCC-54A08F3D8134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2833FEF4-D0F5-45DE-9FCC-54A08F3D8134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2833FEF4-D0F5-45DE-9FCC-54A08F3D8134}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

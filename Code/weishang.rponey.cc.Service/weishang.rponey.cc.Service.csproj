@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AD3D62A3-F200-426E-8C9D-DE7277453D3A}</ProjectGuid>
+    <ProjectGuid>{2833FEF4-D0F5-45DE-9FCC-54A08F3D8134}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>weishang.rponey.cc.Model</RootNamespace>
-    <AssemblyName>weishang.rponey.cc.Model</AssemblyName>
+    <RootNamespace>weishang.rponey.cc.Service</RootNamespace>
+    <AssemblyName>weishang.rponey.cc.Service</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,19 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExecuteResultModel.cs" />
-    <Compile Include="Model\BaseModel.cs" />
-    <Compile Include="Model\PlatformUserModel.cs" />
+    <Compile Include="PlatformUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PublicEnum\PublicEnum.cs" />
-    <Compile Include="Search\SearchParameter.cs" />
-    <Compile Include="ViewModel\BaseViewModel.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\..\..\cms.rponey.cc\cms.rponey.cc.Utilty\RPoney.Utilty.csproj">
-      <Project>{ef1a2ab2-839c-4c8d-8fb0-2358424bd8c5}</Project>
-      <Name>RPoney.Utilty</Name>
+    <ProjectReference Include="..\weishang.rponey.cc.Model\weishang.rponey.cc.Model.csproj">
+      <Project>{AD3D62A3-F200-426E-8C9D-DE7277453D3A}</Project>
+      <Name>weishang.rponey.cc.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
