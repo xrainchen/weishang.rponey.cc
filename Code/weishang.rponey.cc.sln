@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "admin.weishang.rponey.cc", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "公共组建", "公共组建", "{F8CC9C7C-1DC6-461D-BFA2-9CE92B6E28E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rponey.DbHelper", "..\cms.rponey.cc\cms.rponey.cc.DbHelper\Rponey.DbHelper.csproj", "{C78640E4-5403-4BE3-B097-DECFA79212DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rponey.DbHelper", "..\..\cms.rponey.cc\cms.rponey.cc.DbHelper\Rponey.DbHelper.csproj", "{C78640E4-5403-4BE3-B097-DECFA79212DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPoney.Utilty", "..\cms.rponey.cc\cms.rponey.cc.Utilty\RPoney.Utilty.csproj", "{EF1A2AB2-839C-4C8D-8FB0-2358424BD8C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPoney.Utilty", "..\..\cms.rponey.cc\cms.rponey.cc.Utilty\RPoney.Utilty.csproj", "{EF1A2AB2-839C-4C8D-8FB0-2358424BD8C5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "三层", "三层", "{03540B66-7F5A-46A1-B3CA-CE9CBA2C40E8}"
 EndProject
