@@ -40,6 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PlatformPromotion\Imp\BigWheelPlatformPromotionService.cs" />
+    <Compile Include="PlatformPromotion\IPlatformPromotion.cs" />
+    <Compile Include="PlatformPromotion\PlatformPromotionManager.cs" />
+    <Compile Include="PlatformPromotion\PlatformPromotionService.cs" />
     <Compile Include="PlatformUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

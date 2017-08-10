@@ -14,7 +14,7 @@ namespace weishang.rponey.cc.Service
         /// </summary>
         /// <param name="model"></param>
         /// <returns></returns>
-        public ExecuteResultModel PcRegister(BaseViewModel model)
+        public ExecuteResultModel PcRegister(IViewModel model)
         {
             //todo:验证
 
@@ -26,7 +26,7 @@ namespace weishang.rponey.cc.Service
         /// </summary>
         /// <param name="model"></param>
         /// <returns></returns>
-        public ExecuteResultModel WeiXinRegister(BaseViewModel model)
+        public ExecuteResultModel WeiXinRegister(IViewModel model)
         {
             throw new ArgumentNullException();
         }
@@ -35,7 +35,7 @@ namespace weishang.rponey.cc.Service
         /// </summary>
         /// <param name="model"></param>
         /// <returns></returns>
-        public ExecuteResultModel BindWeiXin(BaseViewModel model)
+        public ExecuteResultModel BindWeiXin(IViewModel model)
         {
             throw new ArgumentNullException();
         }

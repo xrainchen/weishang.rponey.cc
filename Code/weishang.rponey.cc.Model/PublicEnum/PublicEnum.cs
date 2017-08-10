@@ -46,5 +46,20 @@ namespace weishang.rponey.cc.Model.PublicEnum
             [Remark("女")]
             FeMale = 2
         }
+
+        /// <summary>
+        /// 系统日志
+        /// </summary>
+        public enum SystemLogTypeEnum
+        {
+
+        }
+        /// <summary>
+        /// 平台用户套餐
+        /// </summary>
+        public enum PlatformUserPackageEnum
+        {
+
+        }
     }
 }
