@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -94,6 +95,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Saller\Controllers\BaseController.cs" />
+    <Compile Include="Areas\Saller\Controllers\MainController.cs" />
+    <Compile Include="Areas\Saller\Controllers\UserController.cs" />
     <Compile Include="Areas\Saller\SallerAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -113,11 +117,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\Saller\Controllers\" />
-    <Folder Include="Areas\Saller\Models\" />
+    <Folder Include="Areas\Saller\Views\Main\" />
     <Folder Include="Areas\Saller\Views\Shared\" />
+    <Folder Include="Areas\Saller\Views\User\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

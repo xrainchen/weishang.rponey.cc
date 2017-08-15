@@ -30,6 +30,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="RPoney.Data">
+      <HintPath>D:\\Lib.Framework\RPoney.Data\RPoney.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="RPoney.Framework">
+      <HintPath>D:\\Lib.Framework\Rponey.Framework\RPoney.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="RPoney.Log">
+      <HintPath>D:\\Lib.Framework\Rponey.Log\RPoney.Log.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,6 +50,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemLogDal.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\cms.rponey.cc\cms.rponey.cc.DbHelper\Rponey.DbHelper.csproj">
+      <Project>{c78640e4-5403-4be3-b097-decfa79212da}</Project>
+      <Name>Rponey.DbHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\cms.rponey.cc\cms.rponey.cc.Utilty\RPoney.Utilty.csproj">
+      <Project>{ef1a2ab2-839c-4c8d-8fb0-2358424bd8c5}</Project>
+      <Name>RPoney.Utilty</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\weishang.rponey.cc.Model\weishang.rponey.cc.Model.csproj">
+      <Project>{ad3d62a3-f200-426e-8c9d-de7277453d3a}</Project>
+      <Name>weishang.rponey.cc.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
